@@ -1,0 +1,14 @@
+.myBtn {
+    padding: 5px 15px;
+    color: teal;
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid teal;
+    cursor: pointer;
+    height: 37px;
+}
+
+.myBtn:disabled {
+    opacity: 50%;
+    cursor: default;
+}
